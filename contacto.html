@@ -11,11 +11,29 @@
     <h1>Contacto</h1>
 
     <div class="container">
+        <!-- Información de contacto -->
+        <h2>Información</h2>
         <p> Teléfono: +56 9 1234 5678</p>
-        <p> Correo: contacto@tuempresa.cl</p>
+        <p>📧Correo: contacto@tuempresa.cl</p>
+
+        <hr>
+
+        <!-- Formulario básico -->
+        <h2>Envíanos un mensaje</h2>
+        <form>
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+
+            <label for="correo">Correo:</label><br>
+            <input type="email" id="correo" name="correo" required><br><br>
+
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br><br>
+
+            <button type="submit">Enviar</button>
+        </form>
 
         <br>
-
         <a href="index.html">Volver al inicio</a>
     </div>
 
